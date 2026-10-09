@@ -3,29 +3,26 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Portfolio</title>
+    <title>BOUKUMOR OYINPREDEI GOODLUCK</title>
 
-    <!-- CSS IS NOW DIRECTLY INSIDE THE HTML FILE -->
     <style>
-        /* 1. Global Styles */
         * {
             margin: 0;
             padding: 0;
             box-sizing: border-box;
-            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            font-family: Arial, sans-serif;
         }
 
         body {
-            background-color: #ffffff; /* White background */
-            color: #333333;            /* Dark text */
+            background-color: #ffffff;
+            color: #333333;
             line-height: 1.6;
             padding: 20px;
         }
 
-        /* 2. Centering the Headings */
         h1, h2 {
-            text-align: center; /* Forces everything to the middle */
-            color: #2563eb;     /* Blue color */
+            text-align: center;
+            color: #2563eb;
             margin-top: 30px;
             margin-bottom: 15px;
         }
@@ -34,13 +31,16 @@
             font-size: 2rem;
         }
 
-        /* 3. Paragraphs */
+        h3 {
+            color: #2563eb;
+            margin-bottom: 10px;
+        }
+
         p {
             margin-bottom: 15px;
             font-size: 1.05rem;
         }
 
-        /* 4. Skills List */
         ul {
             list-style-type: none;
             padding-left: 0;
@@ -48,132 +48,212 @@
         }
 
         ul li {
-            background-color: #f0f8ff; /* Very light blue box */
+            background-color: #f8fafc;
             padding: 10px 15px;
             margin-bottom: 8px;
-            border-left: 4px solid #2563eb; /* Blue line */
             border-radius: 4px;
+            border-left: 4px solid #2563eb;
         }
 
-        /* 5. Project Cards */
+        .profile-container {
+            text-align: center;
+            margin: 20px 0;
+        }
+
+        .profile-image {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            object-fit: cover;
+            display: block;
+            margin: 0 auto 15px;
+            border: 4px solid #2563eb;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+        }
+
         .project-card {
             background-color: #f8fafc;
             padding: 20px;
             border-radius: 10px;
             margin-bottom: 20px;
             border-left: 5px solid #2563eb;
-            box-shadow: 0 2px 5px rgba(0,0,0,0.05);
-        }
-
-        .project-card h3 {
-            color: #2563eb;
-            margin-bottom: 10px;
-            font-size: 1.2rem;
-            text-align: left; /* Keeps project titles left-aligned inside the box */
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
         }
 
         .project-card p {
-            text-align: left; /* Keeps project text left-aligned inside the box */
             color: #475569;
             font-size: 0.95rem;
         }
-        
+
         a {
             color: #2563eb;
             text-decoration: none;
             font-weight: bold;
         }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        #contact {
+            background-color: #f8fafc;
+            padding: 20px;
+            border-radius: 10px;
+            margin-top: 20px;
+        }
+
+        #contact p {
+            margin-bottom: 12px;
+        }
+
+        @media (max-width: 600px) {
+            body {
+                padding: 12px;
+            }
+
+            h1 {
+                font-size: 1.6rem;
+            }
+
+            .project-card {
+                padding: 15px;
+            }
+        }
     </style>
 </head>
+
 <body>
 
-    <h1>Welcome to Oyins Portfolio</h1>
-
+    <h1>BOUKUMOR OYINPREDEI GOODLUCK</h1>
 
     <div class="profile-container">
-        <img src="Snapchat-1105631342.jpg" alt="BOUKUMOR OYINPREDEI GOODLUCK 
-            " class="profile-img">
+        <img src="Snapchat-110531342.jpg"
+             class="profile-image"
+             alt="Boukumor Oyinpredei Goodluck's Profile Picture">
+
+        <h2>About Me</h2>
+
+        <p>
+  My name is Boukumor Oyinpredei Goodluck.
+ I am a Computer Science undergraduate at Bayelsa Medical
+University (BMU). 
+I have a passion for software 
+and enjoy learning how technology works. My goal is to develop useful software application that solve real-life problems and make everyday easier.
+        </p>
     </div>
-    
-    <h2>About Me</h2>
-    <p>My Name is Boukumor Oyinpredei Goodluck, I was born on the 20th of November 2005. I am a 300 level student, currently studying computer science at the Bayelsa Medical University. I have a strong interest in software development. I have skills in HTML, CSS, JavaScript, and basic programming. I’ve always loved technology and learning how things work. I’m especially passionate about software development and creating useful applications.</p>
 
     <h2>MY SKILLS</h2>
+
     <ul>
-        <li>HTML</li>
-        <li>Web design</li>
-        <li>Git & GitHub</li>
-        <li>CSS</li>
-        <li>Basic Javascript</li>
+        <li>HTML and CSS</li>
+        <li>Web Design</li>
+        <li>Git and GitHub</li>
+        <li>Basic JavaScript</li>
         <li>Problem Solving</li>
     </ul>
 
     <h2>MY PROJECTS</h2>
-    
+
     <div class="project-card">
         <h3>Supermarket Billing System</h3>
-        <p>A Supermarket Billing System is a software program that replaces the traditional cash register. It is used at the checkout counter to calculate how much a customer needs to pay for their items and keep a record of the sale.</p>
-        <p><strong>Tech: [Html, Css, Javascript]</strong></p>
-        <a href="https://github.com/boukumorgoodluck">View Source Code</a>
+
+ <p>
+  A Supermarket Billing System is a software application,designed to help supermarkets calculate customers'purchases,and generate receipts. It helps record products, calculate the total cost of items, and make the billing process faster
+and more accurate. </p>
+            
+
+ <p>Technologies: HTML, CSS, JavaScript</p>
+
+ <p> <a href="https://github.com/boukumorgoodluck-cmd"
+               target="_blank"
+               rel="noopener noreferrer">
+                GitHub Profile
+            </a>
+        </p>
     </div>
 
     <div class="project-card">
-        <h3>Hospital & Patient Management System</h3>
-        <p>A Hospital and Patient Management System helps hospitals manage patient records, appointments, medical records, vital signs, and other hospital activities efficiently.</p>
-        <p><strong>Tech: [Html, Css, Javascript]</strong></p>
+        <h3>Hospital and Patient Management System</h3>
+
+<p>
+A Hospital and Patient Management System is a software application designed to help hospitals manage patient information and medical records. It can be used to register patients, store their personal details, organize appointments,
+and help healthcare workers access patient information more efficiently
+ </p>
+
+        <p>Technologies: HTML, CSS, JavaScript</p>
     </div>
+
+    <div class="project-card">
+        <h3>Library and Student Records System</h3>
+
+ <p>
+ A Library and Student Records System is a software application designed to organize library books and student information.It helps keep records of available books, track borrowed and
+returned books, and store student details.This makes it easier to manage library resources and maintain accurate student records.
+ </p>
+
+        <p>Technologies: HTML, CSS, JavaScript</p>
+ <p>
+<a href="https://github.com/boukumorgoodluck-cmd" target="_blank"rel="noopener noreferrer"> GitHub Profile </a> </p>
+   
+ </div>
+    <section id="education">
+
+        <h2>EDUCATION</h2>
+
+ <p>Education and Experience</p>
+
+ <p>
+ Undergraduate Student - Computer Science<br>
+ Bayelsa Medical University (BMU)<br>
+ Current Level: 300 Level<br>
+ Area of Interest: Software Development
+</p>
+
+ <h3>Experience / Trainings</h3>
+
+       <ul>
+ <li>Learning HTML and CSS for web development.</li>
+ <li>Practicing basic JavaScript and programming logic.</li>
+<li>Building small projects, including management systems.</li>
+<li>Developing problem-solving and debugging skills.</li>
+       </ul>
+    </section>
+
+    <section id="achievement">
+
+        <h2>ACHIEVEMENTS</h2>
+
+ <p>Achievements and Certificates</p>
+
+        <ul>
+ <li>Undergraduate student of Computer Science.</li>
+ <li>Learning and practicing HTML and CSS.</li>
+ <li>Studying computer programming and software development.</li> <li>Participating in academic software design assignments.</li>
+        </ul>
+    </section>
+
+    <section id="contact">
+
+        <h2>CONTACT ME</h2>
+
+<p>
+Email: <a href="mailto:boukumorgoodluck@gmail.com">                boukumorgoodluck@gmail.com
+            </a>
+        </p>
+
+  <p>
+    LinkedIn:
+    <a href="https://www.linkedin.com/in/boukumor-goodluck-266513442?utm_source=share_via&utm_content=profile&utm_medium=member_android"
+       target="_blank"
+       rel="noopener noreferrer">
+        Visit My LinkedIn Profile
+    </a>
+  </p>
+    </section>
 
 </body>
 </html>
 
-    <div class="project-card">
-        <h3>Library & Student Records System</h3>
-     <p>A Library Record Management System is a software application used by libraries to replace paper files and logbooks. it keeps track of all the books in the library and records which student has borrowed which book.</p>
-        <p><strong>Tech:</strong> [Html,Css,Javascript]</p>
-        <a href="[https://github.com/boukumorgoodluck-cmd]">View Source Code</a>
-    </div>
-<section>
-
-<!-- EDUCATION -->
-<section id="education">
-    <h2>Education & Experience</h2>
-    <h3>Education</h3>
-    <p>Undergraduate Student – Computer Science
-Bayelsa Medical University (BMU)
-Current Level: 300 Level
-Area of Interest: Software Development</p>
-    <h3>Experience / Training</h3>
-
-<ul>
-   <li>Learning HTML and CSS for web development </li>
-   <li>Practicing basic JavaScript and programming concepts </li>
-   <li>Building small projects such as student records and hospital management system</li>
-   <li>Developing problem-solving and programming skills through academic projects </li>
-  
-</ul>
-
-</section>
-
-<!-- ACHIEVEMENTS-->
-  <section id ="achievement">
-    <h2>Achievement and Certificate</h2>
-
-  <ul>
-      <li>Undergraduate student of Computer Science</li>
-      <li>Completed basic training in HTML and CSS</li>
-      <li>Completed Computer Programming coursework</li>
-       <li>Participated in academic software development projects</li>
-  </ul>
-  </section>
-
-  <!--CONTACT-->
-    <section id="contact">
-    <h2>Contact Me</h2>
-
-    <p>📞 Phone: +234 9072378218</p>
-    <p>📧 Email: boukumorgoodluck@gmail.com</p>
-    <p>Linkedin: https://www.linkedin.com/in/boukumor-goodluck-266513442?utm_source=share_via&utm_content=profile&utm_medium=member_android</p>
-    </section>
       
     
     
